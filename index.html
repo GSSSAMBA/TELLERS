@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/496eb4d2f5.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+        <!-- <div id="topnav" class="topnav"> -->
+        <div id="topnav " class="topnav">
+            <a id="home_link" class="topnav_link logodisplay" href="/"><img class="logo" src="./img/LOGO.png"> </a>
+            <a id="home_link" class="topnav_link logodisplay1 " href="/"><i
+                    class="fa-sharp fa-solid fa-microphone"></i><span class="title1 logo">RACONTELLERS</span><i
+                    class="fa-solid fa-headphones"></i></a>
+            <a id="home_link" class="topnav_link hidden_link" href="/">
+                <i class="fa-sharp fa-solid fa-microphone"></i><span class="title1">RACONTELLERS</span>
+                <i class="fa-solid fa-headphones"></i>
+            </a>
+            <a id="home_link" class="topnav_link hidden_link" href="/"><img class="logo1" src="./img/about1.png">
+            </a>
+
+            <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+                <!-- Some spans to act as a hamburger -->
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <!-- Responsive Menu -->
+        <nav role="navigation" id="topnav_responsive_menu">
+            <ul>
+                <li><a href="/">HOME</a></li>
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/contact-us">CONTACT</a></li>
+                <li><a href="/privacy-policy">PRIVACY POLICY</a></li>
+                <li><a href="/terms-and-conditions">TERMS AND CONDITIONS</a></li>
+            </ul>
+        </nav>
+    </div>
+    </div>
+    <main class="contenu">
+        <div class="video">
+            <video id="background-video" autoplay loop muted>
+
+                <!-- <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4"> -->
+                <source src="./img/paris-film.mp4" type="video/mp4">
+
+            </video>
+            <p class="text-video"><img src="./img/logo-video.PNG"></p>
+            <!-- <p class="text-video effect-3d"><img src="./img/logo-video.PNG"></p> -->
+            <!-- <p class="text-video"><img class="logo-video" src="./img/logo-video.PNG"></p> -->
+
+
+
+
+            <!-- <p class="text-video">Bienvenue sur Racontellers, où les mots s'enlacent,
+                Où les histoires se tissent, où les âmes s'enlacent,
+                Dans les rues de Paris, la grande cité lumineuse,
+                Entre le mal et le bien, elle navigue, audacieuse.
+
+                Paris, telle une muse, inspire nos vers enchantés,
+                Ses habitants fiers de leur culture cosmopolite,
+                Dans un kaléidoscope d'identités mélangées,
+                Unis par l'amour, telle est leur rite.</p> -->
+
+             
+        </div>
+
+        <div class="content">
+            <!-- <img src="./olika.png" /> -->
+            <!-- <button id="btnVideo" onclick="playAndPause()">II</button> -->
+        </div>
+        <section class="big-box">
+            <div class="small-box">
+                <img class="paris" src="./img/Paris.png">
+
+                <div class="circle">
+                    <img class="picture" src="./img/tonio.PNG">
+                </div>
+            </div>
+            <div class="small-box">
+                <img class="paris" src="./img/audience.webp">
+                <!-- <div class="picture-box">
+                    <div class="align-box">
+                        <span class="titre-picture">FLUCTUAT NEC
+                            MERRGITUR</span><br /><br /><br />
+                    </div>
+                    <p class="text-picture">
+                     
+
+                        Roman, 24 ansà
+                        l'époque, revient sur les cinq années qui ont suivi cette
+                        soirée d’anniversaire organisée à La Belle Équipe, un vendredi 13. Il raconte ce que beaucoup
+                        considèrent comme les petites histoires qui font la grande, celle des attentats...
+                    </p>
+                </div> -->
+                <!-- <div class="circle">
+                </div> -->
+            </div>
+        </section>
+        <section class="big-box">
+            <div class="small-box">
+                <img class="paris" src="./img/flower.jpg">
+
+                <div class="circle">
+                    <img class="picture" src="./img/hand.PNG">
+                </div>
+            </div>
+            <div class="small-box">
+                <img class="paris" src="./img/audience.webp">
+
+                <div class="circle">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="box-footer">
+                <div>
+                    <ul>
+                        <li class="li1">Puce</li>
+                        <li class="li2">Puce</li>
+                        <li class="li2">Puce</li>
+                        <li class="li2">Puce</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="li1">Retrouver nous sur : </li>
+                        <li class="li2">Slate</li>
+                        <li class="li2">Instagram</li>
+                        <li class="li2">Facebook</li>
+                        <li class="li2">Twitter</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="li1">
+                            <!-- <i class="fa-solid fa-hashtag"></i> -->
+                            Contact
+                        </li>
+                        <li class="li2">Nous contacter</li>
+                        <!-- <li class="li2">Puce</li>
+                        <li>Puce</li> -->
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+    <script src="video.js"></script>
+    <script>
+        function showResponsiveMenu() {
+            var menu = document.getElementById("topnav_responsive_menu");
+            var icon = document.getElementById("topnav_hamburger_icon");
+            var root = document.getElementById("root");
+            if (menu.className === "") {
+                menu.className = "open";
+                icon.className = "open";
+                root.style.overflowY = "hidden";
+            } else {
+                menu.className = "";
+                icon.className = "";
+                root.style.overflowY = "";
+            }
+        }
+    </script>
+</body>
+
+</html>
